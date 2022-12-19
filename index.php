@@ -122,7 +122,7 @@ elseif($_POST['action']==='delete'){
       <form method="POST" action="  <?php echo $_SERVER['REQUEST_URI'];?>">
         <input type="hidden" name="student_id" value="  <?php echo $student['id'];?>"/>
         <input type="hidden" name="action" value="delete"/>
-        <button class="btn btn-primary mb-1 rounded-1">Delete</button>
+        <button class="btn btn-danger mb-1 rounded-1">Remove</button>
       </form>
     </div>
   </li>
